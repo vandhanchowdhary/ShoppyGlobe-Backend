@@ -1,0 +1,14 @@
+# Ignoring node modules
+node_modules/
+
+# Ignoring environment variables hence they are confidential
+.env
+
+# Ignoring log files
+logs/
+*.log
+npm-debug.log*
+
+# OS-specific files
+.DS_Store
+Thumbs.db
