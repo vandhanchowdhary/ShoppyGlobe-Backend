@@ -147,7 +147,12 @@ Use **Thunder Client** or **Postman** to test:
 
 #### Data in `products` Collection
 
+##### Data in `List View`
+
 ![Data in **List View**](./screenshots/mongoDB_compass_data_1.png)
+
+##### Data in `Table View`
+
 ![Data in `Table View`](./screenshots/mongoDB_compass_data_2.png)
 
 ---
