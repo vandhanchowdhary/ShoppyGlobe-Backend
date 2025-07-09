@@ -33,7 +33,7 @@ shoppyglobe-backend/
 ├── middleware/        # Custom middleware
 │   └── auth.js
 │
-├── .env               # Environment variables (not committed,)
+├── .env               # Environment variables (committed to ensure ease of use)
 ├── .gitignore
 ├── app.js             # Express app setup
 ├── server.js          # Entry point
