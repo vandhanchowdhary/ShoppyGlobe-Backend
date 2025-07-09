@@ -1,8 +1,10 @@
 # Ignoring node modules
 node_modules/
 
-# Ignoring environment variables hence they are confidential
-.env
+# Ignoring confidential files
+Credentials.txt
+shoppyglobe.products.json
+shoppyglobe.users.json
 
 # Ignoring log files
 logs/

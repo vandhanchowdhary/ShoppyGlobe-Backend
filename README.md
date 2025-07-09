@@ -9,7 +9,7 @@ Welcome to the **ShoppyGlobe** backend API – a RESTful service for an e-commer
 - ✅ REST API for managing products and shopping cart
 - ✅ User authentication with JWT tokens
 - ✅ Secure cart operations accessible only by authenticated users
-- ✅ MongoDB integration for persistent storage
+- ✅ MongoDB Atls integration for persistent storage
 - ✅ Input validation and error handling
 - ✅ Tested with ThunderClient
 
@@ -69,6 +69,7 @@ JWT_SECRET=your_jwt_secret
 ```
 
 > Replace `your_mongodb_connection_string` and `your_jwt_secret` with your actual credentials.
+> For this project I have added my own connection string and secret key via `.env` file
 
 ---
 
@@ -144,6 +145,8 @@ Use **Thunder Client** or **Postman** to test:
 ![DELETE && JWT Authentication test](./screenshots/delete_cart_for_an_autherised_user.png)
 
 ### MongoDB Compass (Dummy data)
+
+>The same data has also been put in `MongoDB Atlas` for other users to use the app.
 
 #### Data in `products` Collection
 
