@@ -77,6 +77,12 @@ JWT_SECRET=your_jwt_secret
 
 Use **Thunder Client** or **Postman** to test:
 
+>when running the server you can use `localhost` URL directly
+
+```bash
+http://localhost:5000/api/*
+```
+
 ### 🧾 Authentication
 
 ```bash
