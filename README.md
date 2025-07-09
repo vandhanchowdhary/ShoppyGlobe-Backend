@@ -70,6 +70,7 @@ JWT_SECRET=your_jwt_secret
 
 > Replace `your_mongodb_connection_string` and `your_jwt_secret` with your actual credentials.
 > For this project I have added my own connection string and secret key via `.env` file
+> NOTE: Uncomment the `.env` content before starting your server.
 
 ---
 
